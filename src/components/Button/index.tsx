@@ -1,6 +1,5 @@
 import styles from "./Button.module.css";
 
-import toDoLogo from "../../assets/Logo.svg";
 import { PlusCircle } from "phosphor-react";
 
 export function Button() {
