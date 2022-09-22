@@ -1,4 +1,5 @@
 .button {
+  height: 54px;
   background: var(--blue-dark);
   padding: 1rem;
   border-radius: 8px;
