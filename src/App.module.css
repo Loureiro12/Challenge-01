@@ -13,18 +13,21 @@
   }
 }
 
-.tasks {
-  margin-top: 5rem;
+.container {
   display: flex;
+  margin-top: 5rem;
   align-items: center;
   justify-content: center;
+}
+
+.tasks {
+  width: 38.438rem;
 }
 
 .headerTasks {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  max-width: 38.438rem;
 }
 
 .headerTasks p {

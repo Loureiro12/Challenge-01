@@ -1,7 +1,5 @@
 import styles from "./InputAddTask.module.css";
 
-import { PlusCircle } from "phosphor-react";
-
 export function InputAddTask() {
   return (
     <input
