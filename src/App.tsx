@@ -6,6 +6,7 @@ import styles from "./App.module.css";
 
 import "./global.css";
 import { IsHaveTask } from "./components/IsHaveTask";
+import { CardTask } from "./components/CardTask";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
               Concluídas <span className={styles.counter}>2 de 5</span>
             </p>
           </div>
-          <IsHaveTask />
+          {/* <IsHaveTask /> */}
+          <CardTask />
         </div>
       </div>
     </>
